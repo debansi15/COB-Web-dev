@@ -1,0 +1,105 @@
+*{
+    padding: 0px 0px;
+    margin:0px 0px;
+}
+
+body{
+    background-image: url(bgm2.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+
+.main{
+   position: relative;
+   
+   height: 500px;
+   width:500px;
+   top:50%;
+   left:50%;
+   transform:translate(-50%,20%);
+   border:5px solid rgb(198, 206, 217);
+   border-radius: 50px;
+ 
+}
+
+#longurl{
+    position: relative;
+    top: 35%;
+    left: 10%;
+    height: 40px;
+    width: 296px;
+    border: 2px solid black;
+    border-radius: 20px;
+    padding-left: 10px;
+    padding-right: 20px;
+    font-size: large;
+    font-family: monospace;
+    font-weight: bold;
+}
+
+#shorten{
+    position: relative;
+    top: 35%;
+    left: 12%;
+    height: 40px;
+    width: 80px;
+    border: 2px solid black;
+    border-radius: 10px;
+    font-size: large;
+    font-weight: bold;
+    font-family: monospace;
+    color: white;
+    background-color: rgb(0, 128, 58);
+}
+#shorten:hover{
+    background-color: skyblue;
+}
+
+#shorturl{
+    position: relative;
+    top: 45%;
+    left: 10%;
+    height: 40px;
+    width: 270px;
+    border: 2px solid black;
+    border-radius: 20px;
+    padding-left: 10px;
+    padding-right: 47px;
+    font-size: large;
+    font-family: monospace;
+    font-weight: bold;
+}
+
+#copy{
+    position: relative;
+    top: 46%;
+    left: 12%;
+    height: 35px;
+    width: 80px;
+    border: 2px solid black;
+    border-radius: 10px;
+    color: white;
+    background-color:rgb(0, 128, 58);
+    font-weight: bold;
+    font-size: large;
+    font-family: monospace;
+}
+
+#copy:hover{
+    background-color: skyblue;
+}
+
+.main p{
+    
+    position: relative;
+    top: 20%;
+    left: 13%;
+    height: 60px;
+    width: 400px;
+    font-size: 50px;
+    font-family: monospace;
+    font-weight: bold;
+    color:rgb(226, 166, 14);
+}
+
+
